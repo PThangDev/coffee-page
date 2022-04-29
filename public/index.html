@@ -5,13 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Coffee landing page</title>
-    <link rel="stylesheet" href="./assets/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/styles/index.css" />
   </head>
   <body>
     <div id="root">
-      <div class="wrapper">
-        <header class="header">
-          
+      <div class="wrapper max-w-screen-2xl mx-auto px-8 text-base">
+        <header class="header py-6 flex items-center justify-between">
+          <a href="#" class="header-logo basis-2/6">
+            <img src="./assets/images/logo.png" alt="" />
+          </a>
+          <nav class="navbar basis-3/6">
+            <ul
+              class="nav-list flex items-center justify-end gap-8 uppercase font-semibold text-gray-500"
+            >
+              <li class="nav-item">
+                <a href="#" class="cf-menu-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="cf-menu-link">Our products</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="cf-menu-link">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="cf-menu-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="cf-menu-link">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="cf-menu-link">Styleguide</a>
+              </li>
+            </ul>
+          </nav>
+          <a
+            href="#"
+            class="cart-linkbasis-1/6 ml-16 flex items-center uppercase font-semibold text-gray-500 hover:text-gray-800 transition-all"
+          >
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span class="mx-2">Cart</span>
+            <span
+              class="cart-length text-xs w-6 h-6 flex items-center justify-center text-white bg-[gray] rounded-full"
+              >0</span
+            >
+          </a>
         </header>
         <!--End of header-->
         <main class="main">

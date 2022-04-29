@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "complie": "tailwindcss -i ./src/input.css -o ./public/assets/style.css --watch"
+    "complie": "tailwindcss -i ./src/input.css -o ./public/assets/styles/index.css --watch"
   },
   "name": "coffee-page",
   "version": "1.0.0",

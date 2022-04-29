@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Custom tailwind css */
+.cf-menu-link {
+  @apply hover:text-gray-800 relative after:absolute after:bottom-[-5px] after:left-0 after:w-0 after:h-0.5 after:bg-[orange] hover:after:w-full after:transition-all after:ease-in-out after:duration-300;
+}
